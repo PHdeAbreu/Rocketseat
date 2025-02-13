@@ -149,11 +149,11 @@ ul li::marker {
 }
 
 footer {
+  font-family: "Alice", serif;
 	color: #333333;
   text-align: center;
   padding-bottom: 41px;
   line-height: 150%;
-  font-family: "Alice", serif;
 }
 
 footer img {
