@@ -39,12 +39,30 @@ h3 {
   margin: 20px 0 4px;
 }
 
-.headline {
+p {
+  font-size: 16px;
+}
+
+main h2 + p {
+  margin-bottom: 27px;
+}
+
+
+.headline1 {
     font-size: 16px;
     line-height: 22px;
     font-weight: bold; /* a fonte fica em negrito */
     color: #E1624F;
     text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+}
+
+.headline2 {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold; /* a fonte fica em negrito */
+  color: #E1624F;
+  text-transform: uppercase; /* a fonte fica com todas as letras em maiúsculo */
+  margin-top: 64px;
 }
 
 .subtitle {
@@ -53,7 +71,7 @@ h3 {
   font-style: italic; /* Muda estilo da fonte para itálico */
   text-align: center;
   color: #333333;
-  margin-top: 24px;
+  margin: 24px 0 44px;
 }
 
 .description {
