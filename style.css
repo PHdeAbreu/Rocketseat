@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+:root {
+  font-family: "Open Sans", serif;
+  line-height: auto;
+}
+
 body {
   background-color: #F5F4F0;
   
@@ -41,6 +46,11 @@ h3 {
 
 p {
   font-size: 16px;
+  color: #333333;
+}
+
+strong {
+  color: #333333;
 }
 
 main h2 + p {
@@ -143,6 +153,7 @@ footer {
   text-align: center;
   padding-bottom: 41px;
   line-height: 150%;
+  font-family: "Alice", serif;
 }
 
 footer img {
